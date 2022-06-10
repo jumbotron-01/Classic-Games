@@ -9,8 +9,8 @@ class Snake(object):
 
 		self.unit = 10
 		self.reset(fruit)
-		self.body_colour = pg.Color("#086623")
-		self.head_colour = pg.Color("#4CBB17")
+		self.body_colour = green_body
+		self.head_colour = green_head
 
 	def update_position(self):
 
